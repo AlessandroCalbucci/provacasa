@@ -13,8 +13,9 @@ namespace provagitcasa
             int n = 10;
             int n1 = 11;
 
-            int somma = n + n1;
+            int somma = n + n1 * 2;
 
+            Console.Write("il risultato è:");
             Console.WriteLine(somma);
             Console.ReadLine();
         }
